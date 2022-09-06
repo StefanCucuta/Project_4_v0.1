@@ -3,7 +3,23 @@
 /*--------------------------------------------Colors*/
 
 .bg-color-name-title {
-    background-color: #5F6F94;
+    background-color: #25316D;
+}
+
+.ui-menu-color-home {
+    background-color: #FEF5AC;
+}
+
+.ui-menu-color-resume {
+    background-color: #9b59b6;
+}
+
+.ui-menu-color-contact {
+    background-color: #97D2EC;
+}
+
+.ui-menu-color-download {
+    background-color: #525252;
 }
 
 /*--------------------------------------------Heading*/
@@ -17,10 +33,10 @@ header {
 }
 
 .logo {
-    background: url("/assets/images/stefan.png");
-    background-color: #25316D;
+    background: url("../images/stefan.png");
     background-position: center;
     background-repeat: no-repeat;
+    background-color: #5F6F94;
     background-size: cover;
     min-height: 360px;
     transition: all .5s ease-in-out;
@@ -43,4 +59,17 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #fff;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
